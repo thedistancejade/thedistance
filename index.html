@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Test2</title>
+<link rel="stylesheet" type="text/css" href="./test2_stylesheet.css">	
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+<script>
+
+	window.scroll({
+  top: 2500, 
+  left: 0, 
+  behavior: 'smooth' 
+});
+
+// Scroll certain amounts from current position 
+window.scrollBy({ 
+  top: 100, // could be negative value
+  left: 0, 
+  behavior: 'smooth' 
+});
+
+// Scroll to a certain element
+document.querySelector('.hello').scrollIntoView({ 
+  behavior: 'smooth' 
+});
+
+
+var $target = $('#all-contents');
+inView('.section').on('enter', function(el){
+  var color = $(el).attr('data-background-color');
+  $target.css('background-color', color );
+});
+
+function showDiv(toggle){
+document.getElementById(toggle).style.display = 'block';
+}
+
+</script>
+
+</head>
+
+
+<body>
+
+	<div id="all-contents">
+
+		<!--MIDDLE FIELD-->
+		<div class="middle-field">
+			<div class= "big-box-all" class="section" id="big-box-1" data-background-color="#f1c40f">
+				<!-- <div class="three">12</div> -->
+				<a href="https://www.aristidebenoist.com/" target="blank_"><img src="./1_rgb.jpg" class="r_" ></a>
+				<img src="./1_line.png" id="line1">
+				<a href="https://www.aristidebenoist.com/" target="blank_"><img src="./1_cmyk.jpg" class="c_" ></a>
+			</div>
+			<div class= "big-box-all" class="section" id="big-box-2" data-background-color="#000">
+				<!-- <div class="three">12</div> -->
+				<a href="https://www.studiomotio.com/" target="blank_"><img src="./2_rgb.jpg" class="r_" ></a>
+				<img src="./2_line.png" id="line2">
+				<a href="https://www.studiomotio.com/" target="blank_"><img src="./2_cmyk.jpg" class="c_" ></a>
+			</div>
+			<div class= "big-box-all" class="section" id="big-box-3" data-background-color="#fff">
+				<!-- <div class="three">12</div> -->
+				<a href="https://www.justmakeitrain.com/en/" target="blank_"><img src="./3_rgb.jpg" class="r_" ></a>
+				<img src="./3_line.png" id="line3">
+				<a href="https://www.justmakeitrain.com/en/" target="blank_"><img src="./3_cmyk.jpg" class="c_" ></a>
+			</div>
+			<div class= "big-box-all" class="section" id="big-box-4">
+				<!-- <div class="three">12</div> -->
+				<a href="https://www.ibm.com/plex/" target="blank_"><img src="./4_rgb.jpg" class="r_" ></a>
+				<img src="./4_line.png" id="line4">
+				<a href="https://www.ibm.com/plex/" target="blank_"><img src="./4_cmyk.jpg" class="c_" ></a>
+			</div>
+			<div class= "big-box-all" class="section" id="big-box-5">
+				<!-- <div class="three">12</div> -->
+				<a href="https://theparfaitstand.com/" target="blank_"><img src="./5_rgb.jpg" class="r_" ></a>
+				<img src="./5_line.png" id="line5">
+				<a href="https://theparfaitstand.com/" target="blank_"><img src="./5_cmyk.jpg" class="c_" ></a>
+			</div>
+			<div class= "big-box-all" class="section" id="big-box-6">
+				<!-- <div class="three">12</div> -->
+				<a href="http://www.savesmart.sg/#/" target="blank_"><img src="./6_rgb.jpg" class="r_" ></a>
+				<img src="./6_line.png" id="line6">
+				<a href="http://www.savesmart.sg/#/" target="blank_"><img src="./6_cmyk.jpg" class="c_" ></a>
+			</div>
+			<div class= "big-box-all" class="section" id="big-box-7">
+				<!-- <div class="three">12</div> -->
+				<a href="http://www.francoisrisoud.com/" target="blank_"><img src="./7_rgb.jpg" class="r_" ></a>
+				<img src="./7_line.png" id="line7">
+				<a href="http://www.francoisrisoud.com/" target="blank_"><img src="./7_cmyk.jpg" class="c_" ></a>
+			</div>
+			<div class= "big-box-all" class="section" id="big-box-8">
+				<!-- <div class="three">12</div> -->
+				<a href="https://tsh.io/software-development-outsourcing-ebook" target="blank_"><img src="./8_rgb.jpg" class="r_" ></a>
+				<img src="./8_line.png" id="line8">
+				<a href="https://tsh.io/software-development-outsourcing-ebook" target="blank_"><img src="./8_cmyk.jpg" class="c_" ></a>
+			</div>
+			<div class= "big-box-all" class="section" id="big-box-9">
+				<!-- <div class="three">12</div> -->
+				<a href="https://www.ogury-gdpr.com/" target="blank_"><img src="./9_rgb.jpg" class="r_" ></a>
+				<img src="./9_line.png" id="line9">
+				<a href="https://www.ogury-gdpr.com/" target="blank_"><img src="./9_cmyk.jpg" class="c_" ></a>
+			</div>
+			<div class= "big-box-all" class="section" id="big-box-10">
+				<!-- <div id="three">12</div> -->
+				<a href="https://ribot.co.uk/work/kfc-kiosk" target="blank_"><img src="./10_rgb.jpg" class="r_" ></a>
+				<img src="./10_line.png" id="line10">
+				<a href="https://ribot.co.uk/work/kfc-kiosk" target="blank_"><img src="./10_cmyk.jpg" class="c_" ></a>
+			</div>
+			<div class= "big-box-all" class="section" id="big-box-11">
+				<!-- <div class="three">12</div> -->
+				<a href="https://loopring.org/" target="blank_"><img src="./11_rgb.jpg" class="r_" ></a>
+				<img src="./11_line.png" id="line11">
+				<a href="https://loopring.org/" target="blank_"><img src="./11_cmyk.jpg" class="c_" ></a>
+			</div>
+			<div class= "big-box-all" class="section" id="big-box-12">
+				<!-- <div class="three">12</div> -->
+				<a href="https://meat.agency/" target="blank_"><img src="./12_rgb.jpg" class="r_" ></a>
+				<img src="./12_line.png" id="line12">
+				<a href="https://meat.agency/" target="blank_"><img src="./12_cmyk.jpg" class="c_" ></a>
+			</div>
+			<div class= "big-box-all" class="section" id="big-box-13">
+				<!-- <div class="three">12</div> -->
+				<a href="https://www.moncontroletechnique.fr/reglementation/#/" target="blank_"><img src="./13_rgb.jpg" class="r_" ></a>
+				<img src="./13_line.png" id="line13">
+				<a href="https://www.moncontroletechnique.fr/reglementation/#/" target="blank_"><img src="./13_cmyk.jpg" class="c_" ></a>
+			</div>
+			<div class= "big-box-all" class="section" id="big-box-14">
+				<!-- <div class="three">12</div> -->
+				<a href="http://www.fivebyfive.io/" target="blank_"><img src="./14_rgb.jpg" class="r_" ></a>
+				<img src="./14_line.png" id="line14">
+				<a href="http://www.fivebyfive.io/" target="blank_"><img src="./14_cmyk.jpg" class="c_" ></a>
+			</div>
+			<div class= "big-box-all" class="section" id="big-box-15">
+				<!-- <div class="three">12</div> -->
+				<a href="https://www.redesign50.com/" target="blank_"><img src="./15_rgb.jpg" class="r_" ></a>
+				<img src="./15_line.png" id="line15">
+				<a href="https://www.redesign50.com/" target="blank_"><img src="./15_cmyk.jpg" class="c_" ></a>
+			</div>
+			<div class= "big-box-all" class="section" id="big-box-16">
+				<!-- <div class="three">12</div> -->
+				<a href="https://isimplifyme.com/" target="blank_"><img src="./16_rgb.jpg" class="r_" ></a>
+				<img src="./16_line.png" id="line16">
+				<a href="https://isimplifyme.com/" target="blank_"><img src="./16_cmyk.jpg" class="c_" ></a>
+			</div>
+		</div>
+
+		<!--TITLE -->
+		<div class="title">
+			<a href="./index.html"><img src="./logo.png" id="logo"/></a>
+			<a href="./index.html" id="big-title">The Distance</a>
+			<div id="circle"></div>
+		</div>
+
+
+		<!--FOOTER-->
+		<div class="footer"> 
+						<div id="color-palette">
+						<a href="#big-box-1" class="color_palette_each" id="palette_1" ></a>
+						<a href="#big-box-2" class="color_palette_each" id="palette_2"></a>
+						<a href="#big-box-3" class="color_palette_each" id="palette_3"></a>
+						<a href="#big-box-4" class="color_palette_each" id="palette_4"></a>
+						<a href="#big-box-5" class="color_palette_each" id="palette_5"></a>
+						<a href="#big-box-6" class="color_palette_each" id="palette_6"></a>
+						<a href="#big-box-7" class="color_palette_each" id="palette_7"></a>
+						<a href="#big-box-8" class="color_palette_each" id="palette_8"></a>
+						<a href="#big-box-9" class="color_palette_each" id="palette_9"></a>
+						<a href="#big-box-10" class="color_palette_each" id="palette_10"></a>
+						<a href="#big-box-11" class="color_palette_each" id="palette_11"></a>
+						<a href="#big-box-12" class="color_palette_each" id="palette_12"></a>
+						<a href="#big-box-13" class="color_palette_each" id="palette_13"></a>
+						<a href="#big-box-14" class="color_palette_each" id="palette_14"></a>
+						<a href="#big-box-15" class="color_palette_each" id="palette_15"></a>
+						<a href="#big-box-16" class="color_palette_each" id="palette_16"></a>
+						</div>
+		</div>
+
+	</div>
+
+</body>	
+
+
+</html>

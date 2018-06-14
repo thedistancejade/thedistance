@@ -1,0 +1,210 @@
+body{
+	margin:0;
+	padding:0;
+}
+
+#all-contents{
+
+	background-color:white;
+	transition: background .2s ease;
+	position:absolute;
+}
+
+.section {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+/* TITLE */
+
+.title{
+	position:fixed;
+	top:0;
+}
+
+#logo{
+	width:36%;
+	margin:7.7%;
+}
+
+
+#big-title{
+	position:fixed;
+	bottom:9%;
+	left:-2.8%;
+	color: black;
+	font-size:1.2rem;
+	font-family:avenir-light, san-serif;
+	text-decoration:none;
+	-webkit-transform: rotate(-90deg);
+	-moz-transform: rotate(-90deg);
+	-ms-transform: rotate(-90deg);
+	-o-transform: rotate(-90deg);
+}
+
+#big-title:hover{
+	background-color:black;
+	color:white;
+}
+
+
+/* MIDDLE FIELD */
+
+.big-box-all{
+	width: 78vw;
+	height:24vh;
+	margin-left:27vw;
+	margin-top:28rem;
+	position:relative;
+}
+
+#big-box-1{	
+	width:59vw; 
+	margin-top:16rem;
+	margin-left:28vw;}
+#big-box-2{	
+	width:78vw;
+margin-left:23vw;}
+#big-box-5{	
+	margin-left:28vw;
+ }
+ 
+ #big-box-15{	
+	margin-left:28vw;
+ }
+/*#big-box-4{	
+	background: linear-gradient(90deg, #074ADB, #2250A1); }
+#big-box-5{	
+	background: linear-gradient(90deg, #8FDFCE, #8ECEC2); }
+#big-box-6{	
+	background: linear-gradient(90deg, #A6A6F9, #9DA0CF); }
+#big-box-7{	
+	background: linear-gradient(90deg, #1D31FF, #274FA0); }
+#big-box-8{	
+	background: linear-gradient(90deg, #8761DE, #6E5EA6); }
+#big-box-9{	
+	background: linear-gradient(90deg, #FF2B04, #E73519); }		
+#big-box-10{ 
+	background: linear-gradient(90deg, #F45251, #E4504F); }
+#big-box-11{ 
+	background: linear-gradient(90deg, #1C5FFF, #315DAB); }
+#big-box-12{ 
+	background: linear-gradient(90deg, #F31F52, #E2284F); }
+#big-box-13{ 
+	background: linear-gradient(90deg, #8A4FC6, #77519E); }
+#big-box-14{ 
+	background: linear-gradient(90deg, #12118D, #1F2972); }
+#big-box-15{ 
+	background: linear-gradient(90deg, #E06322, #D66024); }
+*/
+
+#big-box-16{ 
+	margin-bottom: 19rem }
+
+#line1{	margin-bottom:3.5rem;}
+#line2{	margin-bottom:2.5rem;}
+#line3{	margin-bottom:4.5rem;}
+#line4{	margin-bottom:2.5rem;}
+#line5{	margin-bottom:4rem;}
+#line6{	margin-bottom:3.5rem;}
+#line7{	margin-bottom:1.5rem;}
+#line8{	margin-bottom:2.5rem;}
+#line9{	margin-bottom:3.5rem;}
+#line10{ margin-bottom:3.5rem;}
+#line11{ margin-bottom:1.5rem;}
+#line12{ margin-bottom:3.5rem;}
+#line13{ margin-bottom:3.5rem;}
+#line14{ margin-bottom:3.5rem;}
+#line15{ margin-bottom:3.5rem;}
+#line16{ margin-bottom:3.5rem;}
+
+
+
+.three {
+  	width: 12vw;
+  	height: 12vw ;
+  	margin:auto;
+}
+
+.r_{
+	bottom:0;
+	left:0;
+
+	height:24vh;
+}
+
+.c_{
+
+	right:0;
+ 
+	height:24vh;
+}
+
+
+
+/* FOOTER */
+
+.footer{
+	position:fixed;
+	width:2.5rem;
+	right:.5rem;
+	top:.7rem;
+	height:100vh;
+	margin-bottom:1rem;
+	overflow:scroll;
+	}
+
+
+#color-palette{
+	text-align:center;
+}
+
+.color_palette_each{
+	width:1.5rem;
+	height:1.5rem;
+	margin:.2rem;
+	margin-right:0rem;
+	border:none;
+	display: inline-block;
+	cursor:pointer;
+	border-radius:50%;
+	text-decoration:none;
+	color:black;
+
+}
+
+.color_palette_each:hover{
+	border: .15rem solid black;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+   box-sizing: border-box;
+}
+
+
+
+
+#palette_1{	background: linear-gradient(45deg, #FF103D, #E7243E); }
+#palette_2{	background: linear-gradient(45deg, #08FFD4, #6FC4B3); }
+#palette_3{	background: linear-gradient(45deg, #FFFF04, #EEE93A); }
+#palette_4{	background: linear-gradient(45deg, #074ADB, #2250A1); }
+#palette_5{	background: linear-gradient(45deg, #8FDFCE, #8ECEC2); }
+#palette_6{	background: linear-gradient(45deg, #A6A6F9, #9DA0CF); }
+#palette_7{	background: linear-gradient(45deg, #1D31FF, #274FA0); }
+#palette_8{	background: linear-gradient(45deg, #8761DE, #6E5EA6); }
+#palette_9{	background: linear-gradient(45deg, #FF2B04, #E73519); }		
+#palette_10{ background: linear-gradient(45deg, #F45251, #E4504F); }
+#palette_11{ background: linear-gradient(45deg, #1C5FFF, #315DAB); }
+#palette_12{ background: linear-gradient(45deg, #F31F52, #E2284F); }
+#palette_13{ background: linear-gradient(45deg, #8A4FC6, #77519E); }
+#palette_14{ background: linear-gradient(45deg, #12118D, #1F2972); }
+#palette_15{ background: linear-gradient(45deg, #E06322, #D66024); }
+#palette_16{ background: linear-gradient(45deg, #0EC18D, #2DB184); }
+
+
+
+
+
+
