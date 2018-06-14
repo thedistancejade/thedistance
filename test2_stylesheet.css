@@ -61,47 +61,7 @@ body{
 	position:relative;
 }
 
-#big-box-1{	
-	width:59vw; 
-	margin-top:16rem;
-	margin-left:28vw;}
-#big-box-2{	
-	width:78vw;
-margin-left:23vw;}
-#big-box-5{	
-	margin-left:28vw;
- }
- 
- #big-box-15{	
-	margin-left:28vw;
- }
-/*#big-box-4{	
-	background: linear-gradient(90deg, #074ADB, #2250A1); }
-#big-box-5{	
-	background: linear-gradient(90deg, #8FDFCE, #8ECEC2); }
-#big-box-6{	
-	background: linear-gradient(90deg, #A6A6F9, #9DA0CF); }
-#big-box-7{	
-	background: linear-gradient(90deg, #1D31FF, #274FA0); }
-#big-box-8{	
-	background: linear-gradient(90deg, #8761DE, #6E5EA6); }
-#big-box-9{	
-	background: linear-gradient(90deg, #FF2B04, #E73519); }		
-#big-box-10{ 
-	background: linear-gradient(90deg, #F45251, #E4504F); }
-#big-box-11{ 
-	background: linear-gradient(90deg, #1C5FFF, #315DAB); }
-#big-box-12{ 
-	background: linear-gradient(90deg, #F31F52, #E2284F); }
-#big-box-13{ 
-	background: linear-gradient(90deg, #8A4FC6, #77519E); }
-#big-box-14{ 
-	background: linear-gradient(90deg, #12118D, #1F2972); }
-#big-box-15{ 
-	background: linear-gradient(90deg, #E06322, #D66024); }
-*/
-
-#big-box-16{ 
+#big-box-30{ 
 	margin-bottom: 19rem }
 
 #line1{	margin-bottom:3.5rem;}
@@ -119,23 +79,21 @@ margin-left:23vw;}
 #line13{ margin-bottom:3.5rem;}
 #line14{ margin-bottom:3.5rem;}
 #line15{ margin-bottom:3.5rem;}
-#line16{ margin-bottom:3.5rem;}
-#line17{	margin-bottom:1.5rem;}
-#line18{	margin-bottom:2.5rem;}
-#line19{	margin-bottom:3.5rem;}
-#line20{ margin-bottom:3.5rem;}
+#line16{ margin-bottom:4.5rem;}
+#line17{ margin-bottom:2.5rem;}
+#line18{ margin-bottom:3rem;}
+#line19{ margin-bottom:3.5rem;}
+#line20{ margin-bottom:4.5rem;}
 #line21{ margin-bottom:1.5rem;}
 #line22{ margin-bottom:3.5rem;}
-#line23{ margin-bottom:3.5rem;}
+#line23{ margin-bottom:4rem;}
 #line24{ margin-bottom:3.5rem;}
 #line25{ margin-bottom:3.5rem;}
 #line26{ margin-bottom:3.5rem;}
-#line27{	margin-bottom:1.5rem;}
-#line28{	margin-bottom:2.5rem;}
-#line29{	margin-bottom:3.5rem;}
+#line27{ margin-bottom:2.5rem;}
+#line28{ margin-bottom:2.5rem;}
+#line29{ margin-bottom:3.5rem;}
 #line30{ margin-bottom:3.5rem;}
-
-
 
 
 .three {
@@ -157,7 +115,6 @@ margin-left:23vw;}
  
 	height:24vh;
 }
-
 
 
 /* FOOTER */
@@ -197,8 +154,6 @@ margin-left:23vw;}
 	-moz-box-sizing: border-box;
    box-sizing: border-box;
 }
-
-
 
 
 #palette_1{	background: linear-gradient(45deg, #FF103D, #E7243E); }
